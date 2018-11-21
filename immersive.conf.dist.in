@@ -5,4 +5,47 @@
 [Immersive]
 ConfVersion=2010102201
 
+###################################################################################################################
+# IMMERSIVE SETTINGS
+#
+#    Immersive.ManualAttributes
+#        You can set your attribute points manually with trainer npcs 
+#        Recommended only for hardcore RPG lovers
+#        Default: 0 - Disabled
+#                 1 - Enabled
+#
+#    Immersive.SharedQuests
+#        Parameter to prevent bots to complete already completed by master quests again
+#        Default: 0 - Disabled
+#                 1 - Enabled
+#
+#    Immersive.sharedXpPercent
+#    Immersive.sharedRepPercent
+#        Shared XP and Rep (makes all your bots get 90% of your xp/rep)
+#        Default: 0 - Disabled
+#                 1 - Enabled
+#
+#    Immersive.FishingBaubles
+#        Require baubles to fish (nothing will be caught without them)
+#        Default: 0 - Disabled
+#                 1 - Enabled
+#
+#    Immersive.FallDamageHardCore
+#        Can turn on/off the Immersive hardcore fall damage
+#        Default: 0 - Disabled
+#                 1 - Enabled
+#
+#    Immersive.ServerPort
+#        Immersive server port (DO NOT CHANGE IT)
+#        Default: 0
+#
+###################################################################################################################
+
+Immersive.ManualAttributes = 1
+Immersive.SharedQuests = 1
+Immersive.sharedXpPercent = 90
+Immersive.sharedRepPercent = 90
+Immersive.FishingBaubles = 1
+Immersive.FallDamageHardCore = 1
+
 Immersive.ServerPort = 0
