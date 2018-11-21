@@ -17,6 +17,7 @@ public:
 
     int serverPort;
     bool manualAttributes;
+	bool fallDamageHC;
     float sharedXpPercent;
     float sharedRepPercent;
     bool sharedQuests;
